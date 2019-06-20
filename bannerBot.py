@@ -245,8 +245,9 @@ def handle(msg):
 if __name__ == "__main__":
 
     print("시작한다리")
-
-    bot = telepot.Bot("640088884:AAGiZAHxLNdRF8CvoWRd2pqEAkGa0diMlOg")
+    # key = "640088884:AAGiZAHxLNdRF8CvoWRd2pqEAkGa0diMlOg"
+    key = "키를 입력바랍니다."
+    bot = telepot.Bot(key)
     bot.message_loop(handle)
     print('Listening ...')
 
